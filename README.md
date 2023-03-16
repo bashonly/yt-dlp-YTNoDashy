@@ -10,7 +10,7 @@ The `NO_DASHY_DEFAULT` class variable can also be toggled to `True` to disable D
 
 ## Installation
 
-Requires yt-dlp `2023.03.12` or above.
+Requires yt-dlp [2023.03.12](https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/tag/2023.03.12.091732) or above.
 
 You can install this package with pip:
 ```
