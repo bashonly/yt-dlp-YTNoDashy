@@ -24,6 +24,7 @@ class Youtube_NoDashyIE(YoutubeIE, plugin_name='NoDashy'):
                         fmt['protocol'] = 'https'
                         fmt['container'] = remove_end(fmt.get('container'), '_dash')
                         fmt['fragments'] = None
+                        fmt['downloader_options'] = {'http_chunk_size': 10 << 20}
 
         return ret
 
