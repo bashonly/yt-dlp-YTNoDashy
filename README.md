@@ -2,6 +2,16 @@ A [yt-dlp](https://github.com/yt-dlp/yt-dlp) extractor [plugin](https://github.c
 
 ---
 
+## NOTICE
+
+This plugin has been made obsolete by [yt-dlp version 2023.04.11.161417](https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/tag/2023.04.11.161417), [commit c6786ff](https://github.com/yt-dlp/yt-dlp/commit/c6786ff3baaf72a5baa4d56d34058e54cbcf8ceb)
+
+**yt-dlp's default behavior has been reverted, and now it only constructs DASH-y formats if toggled by extractor-arg. As such, this plugin will no longer be updated, unless DASH-y formats are made the default again in the future.**
+
+Run `yt-dlp --update-to nightly` or install the master branch.
+
+---
+
 The construction of DASH-y formats is enabled by default.
 
 Pass `--extractor-args "youtube:construct_dash=off"` to disable it.
