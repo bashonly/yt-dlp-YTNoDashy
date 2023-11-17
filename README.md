@@ -6,7 +6,7 @@ A [yt-dlp](https://github.com/yt-dlp/yt-dlp) extractor [plugin](https://github.c
 
 This plugin has been made obsolete by [yt-dlp version 2023.04.11.161417](https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/tag/2023.04.11.161417), [commit c6786ff](https://github.com/yt-dlp/yt-dlp/commit/c6786ff3baaf72a5baa4d56d34058e54cbcf8ceb)
 
-**yt-dlp's default behavior has been reverted, and now it only constructs DASH-y formats if toggled by extractor-arg. As such, this plugin will no longer be updated, unless DASH-y formats are made the default again in the future.**
+**yt-dlp's default behavior has been reverted, and now it only constructs DASH-y formats if toggled by extractor-arg. As such, this plugin will no longer be updated, and it has been disabled for yt-dlp versions where it is obsolete**
 
 Run `yt-dlp --update-to nightly` or install the master branch.
 
@@ -25,7 +25,7 @@ ytdl-raw-options="extractor-args=[youtube:construct_dash=off]"
 
 ## Installation
 
-Requires yt-dlp [2023.03.12](https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/tag/2023.03.12.091732) or above.
+Requires yt-dlp version [2023.03.12.091732](https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/tag/2023.03.12.091732) to [2023.04.11.160543](https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/tag/2023.04.11.160543).
 
 You can install this package with pip:
 ```

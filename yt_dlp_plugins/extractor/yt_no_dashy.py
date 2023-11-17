@@ -1,3 +1,9 @@
+from yt_dlp.update import version_tuple
+from yt_dlp.version import __version__
+
+if not ((2023, 3, 12, 91732) <= version_tuple(__version__) < (2023, 4, 11, 161417)):
+    raise ImportError('Only yt-dlp versions between 2023.03.12.091732 and 2023.04.11.160543 can use this plugin')
+
 from yt_dlp.utils import (
     LazyList,
     remove_end,
