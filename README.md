@@ -8,7 +8,7 @@ This plugin has been made obsolete by [yt-dlp version 2023.04.11.161417](https:/
 
 **yt-dlp's default behavior has been reverted, and now it only constructs DASH-y formats if toggled by extractor-arg. As such, this plugin will no longer be updated, and it has been disabled for yt-dlp versions where it is obsolete**
 
-Run `yt-dlp --update-to nightly` or install the master branch.
+Update your yt-dlp to the latest version (`yt-dlp -U`) if you have not already.
 
 ---
 
